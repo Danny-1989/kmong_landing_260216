@@ -73,7 +73,7 @@ const App = () => {
       {/* Mobile Navigation */}
       <nav className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-4 h-14 flex items-center justify-between">
         <img 
-          src="kmong_프로필_블랙_투명.png" 
+          src="kmong_프로필_블랙_투명.png" 
           alt="kmong" 
           className="h-[18px]"
           onError={(e) => { e.target.src = 'https://via.placeholder.com/80x18?text=kmong'; }}
@@ -319,7 +319,7 @@ const App = () => {
       {/* Mobile Footer */}
       <footer className="bg-white border-t border-gray-100 py-12 px-5">
         <img 
-          src="kmong_프로필_블랙_투명.png" 
+          src="kmong_프로필_블랙_투명.png" 
           alt="kmong" 
           className="h-[14px] mb-6 opacity-30" 
           onError={(e) => { e.target.src = 'https://via.placeholder.com/60x14?text=kmong'; }}
@@ -343,8 +343,8 @@ const App = () => {
           </div>
         </div>
         <p className="text-[10px] text-slate-400 leading-relaxed border-t border-gray-50 pt-8">
-          (주)크몽 | 대표: 박현호, 김태헌 | 서울 서초구 사임당로 157, 3층<br />
-          사업자등록번호: 613-81-65278 | 통신판매업신고: 2018-서울서초-0551<br />
+          (주)크몽 | 대표: 박현호 | 서울 서초구 강남대로 311<br />
+          사업자등록번호: 214-88-82815 | 통신판매업신고: 2018-서울서초-0551<br />
           © kmong Inc. All rights reserved.
         </p>
       </footer>
@@ -359,8 +359,9 @@ const App = () => {
   );
 };
 
-export default App;
-
+// 
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(<App />);
+
+export default App;
