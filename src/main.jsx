@@ -343,8 +343,8 @@ const App = () => {
           </div>
         </div>
         <p className="text-[10px] text-slate-400 leading-relaxed border-t border-gray-50 pt-8">
-          (주)크몽 | 대표: 박현호 | 서울 서초구 강남대로 311<br />
-          사업자등록번호: 214-88-82815 | 통신판매업신고: 2018-서울서초-0551<br />
+          (주)크몽 | 대표: 박현호, 김태헌 | 서울 서초구 사임당로 157, 3층<br />
+          사업자등록번호: 613-81-65278 | 통신판매업신고: 2018-서울서초-0551<br />
           © kmong Inc. All rights reserved.
         </p>
       </footer>
