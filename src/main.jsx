@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { createRoot } from 'react-dom/client'; // 추가
-import { Play, ChevronRight, ... } from 'lucide-react'; // 
-import React, { useState } from 'react';
+import { createRoot } from 'react-dom/client';
 import { 
   Play, 
   ChevronRight, 
